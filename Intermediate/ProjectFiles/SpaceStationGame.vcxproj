@@ -1,0 +1,1492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_Game|Win32">
+      <Configuration>Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Game|x64">
+      <Configuration>Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|Win32">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Editor|x64">
+      <Configuration>Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Server|Win32">
+      <Configuration>Debug_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_Server|x64">
+      <Configuration>Debug_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Game|Win32">
+      <Configuration>Mac_Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Game|x64">
+      <Configuration>Mac_Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|Win32">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Editor|x64">
+      <Configuration>Mac_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Server|Win32">
+      <Configuration>Mac_Debug_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Debug_Server|x64">
+      <Configuration>Mac_Debug_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Game|Win32">
+      <Configuration>WinRT_Debug_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Game|x64">
+      <Configuration>WinRT_Debug_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Editor|Win32">
+      <Configuration>WinRT_Debug_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Editor|x64">
+      <Configuration>WinRT_Debug_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Server|Win32">
+      <Configuration>WinRT_Debug_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Debug_Server|x64">
+      <Configuration>WinRT_Debug_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Game|Win32">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Game|x64">
+      <Configuration>DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|Win32">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Editor|x64">
+      <Configuration>DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Server|Win32">
+      <Configuration>DebugGame_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugGame_Server|x64">
+      <Configuration>DebugGame_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Game|Win32">
+      <Configuration>Mac_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Game|x64">
+      <Configuration>Mac_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|Win32">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Editor|x64">
+      <Configuration>Mac_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Server|Win32">
+      <Configuration>Mac_DebugGame_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_DebugGame_Server|x64">
+      <Configuration>Mac_DebugGame_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Game|Win32">
+      <Configuration>WinRT_DebugGame_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Game|x64">
+      <Configuration>WinRT_DebugGame_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Editor|Win32">
+      <Configuration>WinRT_DebugGame_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Editor|x64">
+      <Configuration>WinRT_DebugGame_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Server|Win32">
+      <Configuration>WinRT_DebugGame_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_DebugGame_Server|x64">
+      <Configuration>WinRT_DebugGame_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|Win32">
+      <Configuration>Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Game|x64">
+      <Configuration>Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|Win32">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Editor|x64">
+      <Configuration>Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Server|Win32">
+      <Configuration>Development_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Development_Server|x64">
+      <Configuration>Development_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Game|Win32">
+      <Configuration>Mac_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Game|x64">
+      <Configuration>Mac_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|Win32">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Editor|x64">
+      <Configuration>Mac_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Server|Win32">
+      <Configuration>Mac_Development_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Development_Server|x64">
+      <Configuration>Mac_Development_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Game|Win32">
+      <Configuration>WinRT_Development_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Game|x64">
+      <Configuration>WinRT_Development_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Editor|Win32">
+      <Configuration>WinRT_Development_Editor</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Editor|x64">
+      <Configuration>WinRT_Development_Editor</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Server|Win32">
+      <Configuration>WinRT_Development_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Development_Server|x64">
+      <Configuration>WinRT_Development_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|Win32">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Game|x64">
+      <Configuration>Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Server|Win32">
+      <Configuration>Shipping_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Shipping_Server|x64">
+      <Configuration>Shipping_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Game|Win32">
+      <Configuration>Mac_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Game|x64">
+      <Configuration>Mac_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Server|Win32">
+      <Configuration>Mac_Shipping_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Shipping_Server|x64">
+      <Configuration>Mac_Shipping_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Shipping_Game|Win32">
+      <Configuration>WinRT_Shipping_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Shipping_Game|x64">
+      <Configuration>WinRT_Shipping_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Shipping_Server|Win32">
+      <Configuration>WinRT_Shipping_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Shipping_Server|x64">
+      <Configuration>WinRT_Shipping_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Game|Win32">
+      <Configuration>Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Game|x64">
+      <Configuration>Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Server|Win32">
+      <Configuration>Test_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Test_Server|x64">
+      <Configuration>Test_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Game|Win32">
+      <Configuration>Mac_Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Game|x64">
+      <Configuration>Mac_Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Server|Win32">
+      <Configuration>Mac_Test_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Mac_Test_Server|x64">
+      <Configuration>Mac_Test_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Test_Game|Win32">
+      <Configuration>WinRT_Test_Game</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Test_Game|x64">
+      <Configuration>WinRT_Test_Game</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Test_Server|Win32">
+      <Configuration>WinRT_Test_Server</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="WinRT_Test_Server|x64">
+      <Configuration>WinRT_Test_Server</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Private\InstancedMeshContainer.cpp" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Private\SpaceStationGame.cpp" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\StringHelpers.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\InstancedMeshContainer.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\StringHelpers.h" />
+    <None Include="..\..\SpaceStationGame.uproject" />
+    <None Include="..\..\Source\SpaceStationGame.Target.cs" />
+    <None Include="..\..\Source\SpaceStationGameEditor.Target.cs" />
+    <None Include="..\..\Source\SpaceStationGameServer.Target.cs" />
+    <None Include="..\..\Config\DefaultEditor.ini" />
+    <None Include="..\..\Config\DefaultEditorUserSettings.ini" />
+    <None Include="..\..\Config\DefaultEngine.ini" />
+    <None Include="..\..\Config\DefaultGame.ini" />
+    <None Include="..\..\Config\DefaultInput.ini" />
+    <None Include="..\..\Source\SpaceStationGame\SpaceStationGame.Build.cs" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\MySQL\MySQLObject.cpp" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameCharacter.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\MySQL\MySQLObject.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameCharacter.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameGameMode.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameGameMode.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameGameResources.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameGameResources.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameGameState.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameGameState.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameHUD.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameHUD.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerController.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerController.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerState.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerState.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameProjectile.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameProjectile.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\IDCard.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\IDCard.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\Item.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\Item.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItem.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItem.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItemContainer.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItemContainer.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\InstancedItems\LatticeInstancedItem.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\InstancedItems\LatticeInstancedItem.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\Machines\ChemDispenser.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\Machines\ChemDispenser.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\ReagentContainers\ReagentContainer.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\ReagentContainers\ReagentContainer.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Mobs\Limb.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Mobs\Limb.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Private\Jobs\Jobs.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\SpaceStationGame.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\BloodTypes\BloodTypeStruct.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\ChatMessages\ChatMessageStruct.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Inventory\Inventory.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Jobs\Jobs.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Physics\SmoothPhysicsState.h" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Reagents\Reagents.h" />
+    <ClCompile Include="..\..\Source\SpaceStationGame\Public\Reagents\RecipeContainer.cpp" />
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Reagents\RecipeContainer.h" />
+    <ResourceCompile Include="..\..\Source\SpaceStationGame\Resources\Windows\SpaceStationGame.rc" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B9AD8C32-41B1-4CB1-AF6D-FCD3A3F92673}</ProjectGuid>
+    <Keyword>MakeFileProj</Keyword>
+    <RootNamespace>SpaceStationGame</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|x64'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Server|Win32'" Label="Configuration">
+    <ConfigurationType>Makefile</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGame-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win32 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGameServer-Win32-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGame-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Server|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win64 Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGameServer-Win64-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGame-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Mac Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGameServer-Mac-Debug</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGame-WinRT-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\WinRT\SpaceStationGameEditor-WinRT-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer WinRT Debug "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGameServer-WinRT-Debug.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGame-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGameServer-Win32-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGame-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Server|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGameServer-Win64-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGame-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Mac DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGameServer-Mac-DebugGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGame-WinRT-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\WinRT\SpaceStationGameEditor-WinRT-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGameServer-WinRT-DebugGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win32 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGameServer.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Server|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win64 Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGameServer.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGame</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Mac Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGameServer</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGame.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>C:\UnrealEngine-4.8\Engine\Binaries\WinRT\SpaceStationGameEditor.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer WinRT Development "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGameServer.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGame-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win32 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGameServer-Win32-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGame-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Server|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win64 Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGameServer-Win64-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGame-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Mac Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGameServer-Mac-Shipping</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGame-WinRT-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer WinRT Shipping "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGameServer-WinRT-Shipping.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGame-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win32 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win32\SpaceStationGameServer-Win32-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGame-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Test_Server|x64'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Win64 Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Win64\SpaceStationGameServer-Win64-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGame-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer Mac Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\Mac\SpaceStationGameServer-Mac-Test</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGame WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGame WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGame WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGame-WinRT-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Server|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Server|Win32'">
+    <IncludePath />
+    <ReferencePath />
+    <LibraryPath />
+    <LibraryWPath />
+    <SourcePath />
+    <ExcludePath />
+    <OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+    <NMakeBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Build.bat SpaceStationGameServer WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeBuildCommandLine>
+    <NMakeReBuildCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Rebuild.bat SpaceStationGameServer WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeReBuildCommandLine>
+    <NMakeCleanCommandLine>C:\UnrealEngine-4.8\Engine\Build\BatchFiles\Clean.bat SpaceStationGameServer WinRT Test "$(SolutionDir)$(ProjectName).uproject"</NMakeCleanCommandLine>
+    <NMakeOutput>..\..\Binaries\WinRT\SpaceStationGameServer-WinRT-Test.exe</NMakeOutput>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_EDITOR=1;IS_PROGRAM=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;USE_LOGGING_IN_SHIPPING=1;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UE4Editor-SpaceStationGame.dll";DEPRECATED_FORGAME=DEPRECATED;SPACESTATIONGAME_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RUNTIME_PHYSICS_COOKING;WITH_BOX2D=1;WITH_RECAST=1;ENGINE_API=;JSON_API=;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;MESSAGING_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;AIMODULE_API=;GAMEPLAYTAGS_API=;DATABASESUPPORT_API=;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;HTTP_API=;UNREALAUDIO_API=;NIAGARA_API=;VECTORVM_API=;XAUDIO2_API=;UNREALAUDIOXAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=;NIAGARAEDITOR_API=;GRAPHEDITOR_API=;INTROTUTORIALS_API=;LEVELEDITOR_API=;SETTINGS_API=;KISMET_API=;XMLPARSER_API=;ONLINESUBSYSTEM_PACKAGE=1;ONLINESUBSYSTEM_API=;ONLINESUBSYSTEMUTILS_PACKAGE=1;ONLINESUBSYSTEMUTILS_API=</NMakePreprocessorDefinitions>
+    <NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UnrealEngine-4.8\Engine\Source;..\..\Source\SpaceStationGame;..\..\Source\SpaceStationGame\Mobs;..\..\Source\SpaceStationGame\Items;..\..\Source\SpaceStationGame\Items\InstancedItems;..\..\Source\SpaceStationGame\Items\InstancedItems\TiledItems;..\..\Source\SpaceStationGame\Items\ReagentContainers;..\..\Source\SpaceStationGame\Items\Machines;..\..\Source;..\..\Source\SpaceStationGame\Public;..\..\Source\SpaceStationGame\Public\BloodTypes;..\..\Source\SpaceStationGame\Public\ChatMessages;..\..\Source\SpaceStationGame\Public\Explosions;..\..\Source\SpaceStationGame\Public\Inventory;..\..\Source\SpaceStationGame\Public\Jobs;..\..\Source\SpaceStationGame\Public\Physics;..\..\Source\SpaceStationGame\Public\Reagents;..\Build\Win64\UE4Editor\Inc\SpaceStationGame;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Internationalization;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Async;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Concurrency;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Containers;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Delegates;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\HAL;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Logging;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Math;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Misc;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Modules;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Serialization;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Stats;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Templates;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\UObject;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core\Public\Windows;C:\UnrealEngine-4.8\Engine\Source\Runtime\Core;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;C:\UnrealEngine-4.8\Engine\Source\Runtime\CoreUObject;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\AI;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\EdGraph;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\Features;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\Net;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\Slate;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\Tests;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\VisualLogger;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine\Public\AI\Navigation;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;C:\UnrealEngine-4.8\Engine\Source\Runtime\Json\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Json\Public\Dom;C:\UnrealEngine-4.8\Engine\Source\Runtime\Json\Public\Policies;C:\UnrealEngine-4.8\Engine\Source\Runtime\Json\Public\Serialization;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;C:\UnrealEngine-4.8\Engine\Source\Runtime\Json;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Animation;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Application;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Brushes;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Fonts;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Input;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Layout;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Logging;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Rendering;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Sound;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Stats;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Styling;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Textures;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Types;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore\Public\Widgets;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\InputCore\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\InputCore\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\InputCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\SlateCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Application;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Commands;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Docking;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Layout;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Notifications;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Styling;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Text;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Views;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Colors;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Docking;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Images;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Input;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Layout;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Text;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate\Public\Widgets\Views;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;C:\UnrealEngine-4.8\Engine\Source\Runtime\Slate;C:\UnrealEngine-4.8\Engine\Source\Runtime\Messaging\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Messaging\Public\Deprecated;C:\UnrealEngine-4.8\Engine\Source\Runtime\Messaging\Public\Helpers;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;C:\UnrealEngine-4.8\Engine\Source\Runtime\Messaging;C:\UnrealEngine-4.8\Engine\Source\Runtime\RenderCore\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\RenderCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\RHI\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;C:\UnrealEngine-4.8\Engine\Source\Runtime\RHI;C:\UnrealEngine-4.8\Engine\Source\Runtime\ShaderCore\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\ShaderCore;C:\UnrealEngine-4.8\Engine\Source\Runtime\AssetRegistry\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;C:\UnrealEngine-4.8\Engine\Source\Runtime\AssetRegistry;C:\UnrealEngine-4.8\Engine\Source\Runtime\EngineMessages\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\EngineMessages\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;C:\UnrealEngine-4.8\Engine\Source\Runtime\EngineMessages;C:\UnrealEngine-4.8\Engine\Source\Runtime\EngineSettings\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\EngineSettings\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;C:\UnrealEngine-4.8\Engine\Source\Runtime\EngineSettings;C:\UnrealEngine-4.8\Engine\Source\Developer\SynthBenchmark\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;C:\UnrealEngine-4.8\Engine\Source\Runtime\Renderer\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;C:\UnrealEngine-4.8\Engine\Source\Runtime\Renderer;C:\UnrealEngine-4.8\Engine\Source\Developer\SynthBenchmark;C:\UnrealEngine-4.8\Engine\Source\Runtime\AIModule\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\AIModule\Classes;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;C:\UnrealEngine-4.8\Engine\Source\Runtime\GameplayTags\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\GameplayTags\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;C:\UnrealEngine-4.8\Engine\Source\Runtime\GameplayTags;C:\UnrealEngine-4.8\Engine\Source\Runtime\AIModule;C:\UnrealEngine-4.8\Engine\Source\Runtime\DatabaseSupport\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;C:\UnrealEngine-4.8\Engine\Source\Runtime\DatabaseSupport;C:\UnrealEngine-4.8\Engine\Source\Programs\UnrealLightmass\Public;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Classes;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\AutoReimport;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Commandlets;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Dialogs;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\FeaturePack;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Features;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Kismet2;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Layers;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Settings;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Tests;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd\Public\Toolkits;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;C:\UnrealEngine-4.8\Engine\Source\Editor\BspMode\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;C:\UnrealEngine-4.8\Engine\Source\Editor\BspMode;C:\UnrealEngine-4.8\Engine\Source\Developer\DirectoryWatcher\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;C:\UnrealEngine-4.8\Engine\Source\Developer\DirectoryWatcher;C:\UnrealEngine-4.8\Engine\Source\Editor\Documentation\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;C:\UnrealEngine-4.8\Engine\Source\Editor\Documentation;C:\UnrealEngine-4.8\Engine\Source\Runtime\Projects\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Projects\Public\Interfaces;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;C:\UnrealEngine-4.8\Engine\Source\Runtime\Projects;C:\UnrealEngine-4.8\Engine\Source\Runtime\SandboxFile\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;C:\UnrealEngine-4.8\Engine\Source\Runtime\SandboxFile;C:\UnrealEngine-4.8\Engine\Source\Editor\EditorStyle\Public;C:\UnrealEngine-4.8\Engine\Source\Editor\EditorStyle\Public\Classes;C:\UnrealEngine-4.8\Engine\Source\Editor\EditorStyle\Public\Interfaces;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;C:\UnrealEngine-4.8\Engine\Source\Editor\EditorStyle;C:\UnrealEngine-4.8\Engine\Source\Developer\SourceControl\Public;C:\UnrealEngine-4.8\Engine\Source\Developer\SourceControl\Public\Tests;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;C:\UnrealEngine-4.8\Engine\Source\Developer\SourceControl;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEdMessages\Classes;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEdMessages\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEdMessages;C:\UnrealEngine-4.8\Engine\Source\Editor\BlueprintGraph\Classes;C:\UnrealEngine-4.8\Engine\Source\Editor\BlueprintGraph\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;C:\UnrealEngine-4.8\Engine\Source\Editor\BlueprintGraph;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\HTTP\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\HTTP;C:\UnrealEngine-4.8\Engine\Source\Runtime\UnrealAudio\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;C:\UnrealEngine-4.8\Engine\Source\Runtime\UnrealAudio;C:\UnrealEngine-4.8\Engine\Source\Runtime\Niagara\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\Niagara\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Niagara;C:\UnrealEngine-4.8\Engine\Source\Runtime\Niagara;C:\UnrealEngine-4.8\Engine\Source\Runtime\VectorVM\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VectorVM;C:\UnrealEngine-4.8\Engine\Source\Runtime\VectorVM;C:\UnrealEngine-4.8\Engine\Source\Runtime\Windows\XAudio2\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;C:\UnrealEngine-4.8\Engine\Source\Runtime\Windows\XAudio2;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudioXAudio2;C:\UnrealEngine-4.8\Engine\Source\Runtime\Windows\UnrealAudioXAudio2;C:\UnrealEngine-4.8\Engine\Source\Editor\UserFeedback\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UserFeedback;C:\UnrealEngine-4.8\Engine\Source\Editor\UserFeedback;C:\UnrealEngine-4.8\Engine\Source\Developer\CollectionManager\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;C:\UnrealEngine-4.8\Engine\Source\Developer\CollectionManager;C:\UnrealEngine-4.8\Engine\Source\Editor\NiagaraEditor\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraEditor;C:\UnrealEngine-4.8\Engine\Source\Editor\GraphEditor\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;C:\UnrealEngine-4.8\Engine\Source\Editor\IntroTutorials\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;C:\UnrealEngine-4.8\Engine\Source\Editor\IntroTutorials;C:\UnrealEngine-4.8\Engine\Source\Editor\GraphEditor;C:\UnrealEngine-4.8\Engine\Source\Editor\LevelEditor\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;C:\UnrealEngine-4.8\Engine\Source\Developer\Settings\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;C:\UnrealEngine-4.8\Engine\Source\Developer\Settings;C:\UnrealEngine-4.8\Engine\Source\Editor\LevelEditor;C:\UnrealEngine-4.8\Engine\Source\Editor\NiagaraEditor;C:\UnrealEngine-4.8\Engine\Source\Editor\UnrealEd;C:\UnrealEngine-4.8\Engine\Source\Editor\Kismet\Classes;C:\UnrealEngine-4.8\Engine\Source\Editor\Kismet\Public;C:\UnrealEngine-4.8\Engine\Source\Editor\Kismet\Public\Nodes;C:\UnrealEngine-4.8\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;C:\UnrealEngine-4.8\Engine\Source\Editor\Kismet;C:\UnrealEngine-4.8\Engine\Source\Runtime\Engine;C:\UnrealEngine-4.8\Engine\Source\Editor\XmlParser\Public;C:\UnrealEngine-4.8\Engine\Source\Runtime\XmlParser\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XmlParser;C:\UnrealEngine-4.8\Engine\Source\Runtime\XmlParser;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\OnlineSubsystem\Public\Interfaces;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\OnlineSubsystem\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystem;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\OnlineSubsystem;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\OnlineSubsystemUtils\Classes;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\OnlineSubsystemUtils\Public;C:\UnrealEngine-4.8\Engine\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystemUtils;C:\UnrealEngine-4.8\Engine\Source\Runtime\Online\OnlineSubsystemUtils;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+    <NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+    <NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+    <NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

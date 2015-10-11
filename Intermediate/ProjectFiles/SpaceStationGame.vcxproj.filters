@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\SpaceStationGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{061147E7-F4B5-47D4-8C91-EB01D04542DB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceStationGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpaceStationGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\SpaceStationGameServer.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{1DF8E53F-D556-4360-8E0F-051A49ABF066}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\SpaceStationGame">
+      <UniqueIdentifier>{59841401-6C75-444E-9768-E9ADA98A0454}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\SpaceStationGame\SpaceStationGame.Build.cs">
+      <Filter>Source\SpaceStationGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameCharacter.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameCharacter.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameGameMode.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameGameMode.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameGameResources.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameGameResources.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameGameState.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameGameState.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameHUD.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameHUD.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerController.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerController.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerState.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGamePlayerState.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\SpaceStationGameProjectile.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\SpaceStationGameProjectile.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Items">
+      <UniqueIdentifier>{88B49638-C7E7-4B22-8157-A25A72B4DF37}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\IDCard.cpp">
+      <Filter>Source\SpaceStationGame\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\IDCard.h">
+      <Filter>Source\SpaceStationGame\Items</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\Item.cpp">
+      <Filter>Source\SpaceStationGame\Items</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\Item.h">
+      <Filter>Source\SpaceStationGame\Items</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Items\InstancedItems">
+      <UniqueIdentifier>{AD32FAB9-99AB-4F21-9860-2EC612AE8AF5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItem.cpp">
+      <Filter>Source\SpaceStationGame\Items\InstancedItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItem.h">
+      <Filter>Source\SpaceStationGame\Items\InstancedItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItemContainer.cpp">
+      <Filter>Source\SpaceStationGame\Items\InstancedItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\InstancedItems\InstancedItemContainer.h">
+      <Filter>Source\SpaceStationGame\Items\InstancedItems</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\InstancedItems\LatticeInstancedItem.cpp">
+      <Filter>Source\SpaceStationGame\Items\InstancedItems</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\InstancedItems\LatticeInstancedItem.h">
+      <Filter>Source\SpaceStationGame\Items\InstancedItems</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Items\Machines">
+      <UniqueIdentifier>{C137BFF9-B8CC-40E7-8CE4-DA1029E2F258}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\Machines\ChemDispenser.cpp">
+      <Filter>Source\SpaceStationGame\Items\Machines</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\Machines\ChemDispenser.h">
+      <Filter>Source\SpaceStationGame\Items\Machines</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Items\ReagentContainers">
+      <UniqueIdentifier>{6A71A026-8C34-4044-B65B-8EDA63E1FF71}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Items\ReagentContainers\ReagentContainer.cpp">
+      <Filter>Source\SpaceStationGame\Items\ReagentContainers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Items\ReagentContainers\ReagentContainer.h">
+      <Filter>Source\SpaceStationGame\Items\ReagentContainers</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Mobs">
+      <UniqueIdentifier>{352104D8-6978-4E0B-87A8-6BBA38BB39BE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Mobs\Limb.cpp">
+      <Filter>Source\SpaceStationGame\Mobs</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Mobs\Limb.h">
+      <Filter>Source\SpaceStationGame\Mobs</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Private">
+      <UniqueIdentifier>{D50779C8-3F31-4367-B6A5-3298BAADD7A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpaceStationGame\Private\Jobs">
+      <UniqueIdentifier>{5BF51083-86BD-411C-B81D-4602614CA10C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Private\Jobs\Jobs.cpp">
+      <Filter>Source\SpaceStationGame\Private\Jobs</Filter>
+    </ClCompile>
+    <Filter Include="Source\SpaceStationGame\Public">
+      <UniqueIdentifier>{5D5D5D9C-4543-4D1C-905D-80C9E896020E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\SpaceStationGame.h">
+      <Filter>Source\SpaceStationGame\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Public\BloodTypes">
+      <UniqueIdentifier>{34E492FB-A423-48A3-8328-B1328AE94FDA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\BloodTypes\BloodTypeStruct.h">
+      <Filter>Source\SpaceStationGame\Public\BloodTypes</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Public\ChatMessages">
+      <UniqueIdentifier>{3D479449-2D26-4B66-B06F-BEE483D85298}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\ChatMessages\ChatMessageStruct.h">
+      <Filter>Source\SpaceStationGame\Public\ChatMessages</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Public\Inventory">
+      <UniqueIdentifier>{D6AC30E7-364A-409E-9C33-905D958D91FC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Inventory\Inventory.h">
+      <Filter>Source\SpaceStationGame\Public\Inventory</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Public\Jobs">
+      <UniqueIdentifier>{03F9E892-CEA6-4723-B7BC-85334109D6A1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Jobs\Jobs.h">
+      <Filter>Source\SpaceStationGame\Public\Jobs</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Public\Physics">
+      <UniqueIdentifier>{5198F6DE-0927-4FC8-9259-B8CF15EC5AFE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Physics\SmoothPhysicsState.h">
+      <Filter>Source\SpaceStationGame\Public\Physics</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Public\Reagents">
+      <UniqueIdentifier>{DF487D89-B2E7-47AF-B6AD-BBD0B8E5E487}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Reagents\Reagents.h">
+      <Filter>Source\SpaceStationGame\Public\Reagents</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Public\Reagents\RecipeContainer.cpp">
+      <Filter>Source\SpaceStationGame\Public\Reagents</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\Reagents\RecipeContainer.h">
+      <Filter>Source\SpaceStationGame\Public\Reagents</Filter>
+    </ClInclude>
+    <Filter Include="Source\SpaceStationGame\Resources">
+      <UniqueIdentifier>{F5582D4A-EE01-4A12-AF5D-50154A112542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\SpaceStationGame\Resources\Windows">
+      <UniqueIdentifier>{E59D785C-A1FE-4148-A92E-F719E342F364}</UniqueIdentifier>
+    </Filter>
+    <ResourceCompile Include="..\..\Source\SpaceStationGame\Resources\Windows\SpaceStationGame.rc">
+      <Filter>Source\SpaceStationGame\Resources\Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\SpaceStationGame\MySQL">
+      <UniqueIdentifier>{684f659e-d717-4bd7-b127-8293e63155ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\SpaceStationGame\MySQL\MySQLObject.h">
+      <Filter>Source\SpaceStationGame\MySQL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceStationGame\StringHelpers.h">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\SpaceStationGame\Public\InstancedMeshContainer.h">
+      <Filter>Source\SpaceStationGame\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\SpaceStationGame\MySQL\MySQLObject.cpp">
+      <Filter>Source\SpaceStationGame\MySQL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceStationGame\StringHelpers.cpp">
+      <Filter>Source\SpaceStationGame</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Private\InstancedMeshContainer.cpp">
+      <Filter>Source\SpaceStationGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\SpaceStationGame\Private\SpaceStationGame.cpp">
+      <Filter>Source\SpaceStationGame\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
